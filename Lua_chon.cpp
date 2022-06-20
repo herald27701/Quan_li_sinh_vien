@@ -39,6 +39,7 @@ class Lua_chon
         {
             cout << "Ho ten sinh vien thu " << i << ":" <<sv[i].getHo_ten() << "\n";
             cout << "MSSV sinh vien thu " << i << ":" <<sv[i].getMssv() << "\n";
+            cout << endl;
         }
         system("pause");
     }

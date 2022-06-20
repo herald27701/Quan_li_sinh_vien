@@ -41,7 +41,7 @@ class Quan_li : private Lua_chon
                 break;
                 default:
                 {
-                    cout << "Lua chon khong phu hop\n";
+                    cout << "Lua chon khong phu hop, vui long nhap lai! \n";
                 }
             }
         }
