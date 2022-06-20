@@ -23,11 +23,11 @@ class Lua_chon
         sv.resize(n);
         for (int i = 0; i<n; i++)
         {
-            cout << "Nhap ho ten sinh vien thu " << i <<":";
+            cout << "Nhap ho ten sinh vien thu " << i <<": ";
             cin.ignore();
             getline(cin,ho_ten);
             sv[i].setHo_ten(ho_ten);
-            cout << "Nhap MSSV sinh vien thu " << i <<":";
+            cout << "Nhap MSSV sinh vien thu " << i <<": ";
             cin >> mssv;
             sv[i].setMssv(mssv);
         }

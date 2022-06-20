@@ -42,6 +42,7 @@ class Quan_li : private Lua_chon
                 default:
                 {
                     cout << "Lua chon khong phu hop, vui long nhap lai! \n";
+                    system("pause");
                 }
             }
         }
