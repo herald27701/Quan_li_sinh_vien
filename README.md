@@ -1,2 +1,2 @@
-// DEMO
-/* I'm still improving the code */
+# DEMO
+/* I'm still learning */
