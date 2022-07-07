@@ -17,6 +17,7 @@ class Quan_li : private Lua_chon
             system("cls");
 			cout << "1. Nhap danh sach sinh vien\n";
 			cout << "2. Hien danh sach sinh vien\n";
+            cout << "3. Nhap diem sinh vien\n";
             cout << "0. Thoat\n";
 
             cout << "\n\nNhap lua chon: ";
@@ -32,6 +33,11 @@ class Quan_li : private Lua_chon
                 case 2:
                 {
                     Lua_chon::XuatDS();
+                }
+                break;
+                case 3:
+                {
+                    Lua_chon::NhapDiem();
                 }
                 break;
                 case 0:
