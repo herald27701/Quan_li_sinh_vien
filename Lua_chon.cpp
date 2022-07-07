@@ -58,11 +58,10 @@ public:
 
     void XuatDS()
     {
-        cout << left << setw(10) << "Si so" << left << setw(15) << "Ho va ten" << left << setw(10) << "MSSV" << left << setw(10) << "Diem NMLT" << left << setw(10) << "Diem CTDL" << left << setw(10) << "Diem OOP" << left << setw(10) << "Diem DATABASE"
-             << "\n";
+        cout << left << setw(10) << "Si so" << left << setw(20) << "Ho va ten" << left << setw(10) << "MSSV" << left << setw(15) << "Diem NMLT" << left << setw(15) << "Diem CTDL" << left << setw(15) << "Diem OOP" << left << setw(15) << "Diem DATABASE" << left << setw(15) << "Diem trung binh" << "\n";
         for (int i = 0; i < n; i++)
         {
-            cout << left << setw(10) << i << left << setw(15) << sv[i].getHo_ten() << left << setw(10) << sv[i].getMssv() << left << setw(10) << sv[i].getNMLT() << left << setw(10) << sv[i].getCTDLGT() << left << setw(10) << sv[i].getOOP() << left << setw(10) << sv[i].getDATABASE() << "\n";
+            cout << left << setw(10) << i << left << setw(20) << sv[i].getHo_ten() << left << setw(10) << sv[i].getMssv() << left << setw(15) << sv[i].getNMLT() << left << setw(15) << sv[i].getCTDLGT() << left << setw(15) << sv[i].getOOP() << left << setw(15) << sv[i].getDATABASE() << left << setw(15) << sv[i].getDTB() << "\n";
         }
         system("pause");
     }

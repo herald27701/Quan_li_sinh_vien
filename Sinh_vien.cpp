@@ -81,7 +81,7 @@ class Sinh_vien
         return diem_DATABASE;
     }
 
-    float DTB(float diem_NMLT, float diem_CTDLGT, float diem_OOP, float diem_DATABASE)
+    float getDTB()
     {
         return (diem_NMLT + diem_CTDLGT + diem_OOP + diem_DATABASE)/4;
     }
